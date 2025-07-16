@@ -1,0 +1,13 @@
+image:
+  repository: lsh5224/mariadb
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3306
+
+rootPassword: VMware1!
+msaUser:
+  name: MSA_User
+  password: P@ssw0rd
