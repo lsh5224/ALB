@@ -1,10 +1,11 @@
 backend:
   users:
     image: 235084396989.dkr.ecr.ap-northeast-2.amazonaws.com/backend-user
-    tag: 2
+    tag: 4
     port: 8080
 
 mariadb:
+  host: mariadb.default.svc.cluster.local
   port: 3306
   userName: MSA_User
   rootPassword: P@ssw0rd
